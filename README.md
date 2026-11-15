@@ -1,4 +1,4 @@
-## DATE: 07/08/2026
+## Matrix operations & linear algebra with NumPy
 
 
 
@@ -21,21 +21,6 @@
 
 
 
-
- ## THEORY:
-
-
-
-
-
-
-Linear algebra (matrix inversion, eigen-decomposition) underpins PCA, linear models, and many optimization problems. Conditioning/invertibility matters. 
-
-
-
-
-
-
 ## ALGORITHM:
 
 
@@ -43,8 +28,21 @@ Linear algebra (matrix inversion, eigen-decomposition) underpins PCA, linear mod
 
 
 
-
 Direct use of numpy.linalg routines; relate to linear regression normal equations. 
+
+
+
+
+
+## THEORY:
+
+
+
+
+
+
+
+Linear algebra (matrix inversion, eigen-decomposition) underpins PCA, linear models, and many optimization problems. Conditioning/invertibility matters. 
 
 
 
@@ -160,5 +158,4 @@ solve A x = B--> x: [0.2 0.6]
 
 
 
-Students see concrete matrix computations and how to solve linear systems; relate 
-solve() to normal equations in linear regression.
+Students see concrete matrix computations and how to solve linear systems; relate solve() to normal equations in linear regression.
